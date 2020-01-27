@@ -8,7 +8,6 @@ body{
   position:absolute;
   width:100%;
   height:200px;
- 
 }
 
 
@@ -24,6 +23,7 @@ ul.Breadcrumb li {
   display: inline;
   font-size: 18px;
   font-size:3.5vh;
+  
 }
 
 /* Add a slash symbol (/) before/behind each list item */
@@ -31,6 +31,7 @@ ul.Breadcrumb li+li:before {
   padding: 8px;
   color: black;
   content: "/\00a0";
+ 
 }
 
 /* Add a color to all links inside the list */
@@ -44,3 +45,12 @@ ul.Breadcrumb li a:hover {
   color: #01447e;
   text-decoration: underline;
 } 
+
+hr.new1 {
+  width: 50%;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#ffffff;
+  border: 0 none;
+}
