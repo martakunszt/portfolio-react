@@ -6,17 +6,17 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Breadcrumbs></Breadcrumbs>
+        <Breadcrumb></Breadcrumb>
       </header>
     </div>
   );
 }
 
 
-function Breadcrumbs() {
+function Breadcrumb() {
   return (
-    <div className="Breadcrumb">
-      <ul>
+    <div className="Nav">
+      <ul className="Breadcrumb">
         <li><a href="# ">My Work</a></li>
         <li>About me</li>
         <li>Contact</li>
