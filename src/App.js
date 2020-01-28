@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import logo from'./assets/logo.png';
+
 
 
 function App() {
@@ -20,7 +22,7 @@ function App() {
 function Logo(){
   return(
     <div className = "logo">
-      <img src="/logo.png" alt="logo with initials" />
+      <img src={logo} alt="logo with initials" />
     </div>
   )
 }
