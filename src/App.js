@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Logo></Logo>
         <Breadcrumb></Breadcrumb>
         <Hr></Hr>
       </header>
@@ -16,6 +17,13 @@ function App() {
   );
 }
 
+function Logo(){
+  return(
+    <div className = "logo">
+      <img src="/logo.png" alt="logo with initials" />
+    </div>
+  )
+}
 
 function Breadcrumb() {
   return (
@@ -48,10 +56,7 @@ class Slider extends React.Component {
         "https://i.imgur.com/WscO9sp.png",
         "https://i.imgur.com/AMHbgM6.png",
         "https://i.imgur.com/vWMEY63.png",
-        "https://i.imgur.com/akmChCT.png",
-        "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/redsky.jpg",
-        "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/sandy-shores.jpg",
-        "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/tree-of-life.jpg"
+        "https://i.imgur.com/akmChCT.png"
       ],
       currentIndex: 0,
       translateValue: 0
@@ -134,7 +139,7 @@ const Slide = ({ image }) => {
 const LeftArrow = (props) => {
   return (
     <div className="backArrow arrow" onClick={props.goToPrevSlide}>
-      <i className="fas fa-arrow-left fa-2x"></i>
+      <i className="fas fa-arrow-left"></i>
     </div>
   );
 }
@@ -143,7 +148,7 @@ const LeftArrow = (props) => {
 const RightArrow = (props) => {
   return (
     <div className="nextArrow arrow" onClick={props.goToNextSlide}>
-      <i className="fas fa-arrow-right fa-2x"></i>
+      <i className="fas fa-arrow-right"></i>
     </div>
   );
 }
@@ -159,8 +164,8 @@ function AboutMe() {
     <div className="aboutme">
       <a name= "aboutme"></a>
      <h1>Looking for a web developer?</h1>
-     <p>I'm a junior web developer living in Cambridge, United Kingdom. I'm a junior web developer living in Cambridge, United Kingdom.  I'm a junior web developer living in Cambridge, United Kingdom. I'm a junior web developer living in Cambridge, United Kingdom.  </p>
-     <p>text goes here text goes here</p>
+     <p class="one">I'm a junior front-end developer living in Cambridge, United Kingdom.</p>
+     <p class="two"><span>Currently looking for job.</span></p>
     </div>
   );
 }
