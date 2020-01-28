@@ -1,5 +1,5 @@
 body{
-  background-color:#ffffff;
+  background-color:black;
   font-family:"Source Sans Pro";
   width:100%;
   color:#928a88;
@@ -43,7 +43,7 @@ ul.Breadcrumb li a {
 
 /* Add a color on mouse-over */
 ul.Breadcrumb li a:hover {
-  color:#b8aec2;
+  color:#9c88b0;
 } 
 
 hr.new1 {

@@ -19,8 +19,8 @@ function Breadcrumb() {
     <div className="Nav">
       <ul className="Breadcrumb">
         <li><a href="#work">My Work </a></li>
-        <li>About me </li>
-        <li>Contact </li>
+        <li><a href="#about">About me </a></li>
+        <li><a href="#contact">Contact</a> </li>
       </ul>
     </div>
   );
