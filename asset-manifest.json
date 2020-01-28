@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/martakunszt/portfolio-react/static/css/main.fcefe766.chunk.css",
-    "main.js": "/martakunszt/portfolio-react/static/js/main.02a5cf5e.chunk.js",
-    "main.js.map": "/martakunszt/portfolio-react/static/js/main.02a5cf5e.chunk.js.map",
-    "runtime-main.js": "/martakunszt/portfolio-react/static/js/runtime-main.341945d9.js",
-    "runtime-main.js.map": "/martakunszt/portfolio-react/static/js/runtime-main.341945d9.js.map",
-    "static/js/2.f175dcd4.chunk.js": "/martakunszt/portfolio-react/static/js/2.f175dcd4.chunk.js",
-    "static/js/2.f175dcd4.chunk.js.map": "/martakunszt/portfolio-react/static/js/2.f175dcd4.chunk.js.map",
-    "index.html": "/martakunszt/portfolio-react/index.html",
-    "precache-manifest.755f0aafbc29ed03428a31085b4b0c9f.js": "/martakunszt/portfolio-react/precache-manifest.755f0aafbc29ed03428a31085b4b0c9f.js",
-    "service-worker.js": "/martakunszt/portfolio-react/service-worker.js",
-    "static/css/main.fcefe766.chunk.css.map": "/martakunszt/portfolio-react/static/css/main.fcefe766.chunk.css.map",
-    "static/js/2.f175dcd4.chunk.js.LICENSE": "/martakunszt/portfolio-react/static/js/2.f175dcd4.chunk.js.LICENSE"
+    "main.css": "/martakunszt/portfolio-react/build/static/css/main.bb0778d6.chunk.css",
+    "main.js": "/martakunszt/portfolio-react/build/static/js/main.28a8db67.chunk.js",
+    "main.js.map": "/martakunszt/portfolio-react/build/static/js/main.28a8db67.chunk.js.map",
+    "runtime-main.js": "/martakunszt/portfolio-react/build/static/js/runtime-main.27a1e4b5.js",
+    "runtime-main.js.map": "/martakunszt/portfolio-react/build/static/js/runtime-main.27a1e4b5.js.map",
+    "static/js/2.f175dcd4.chunk.js": "/martakunszt/portfolio-react/build/static/js/2.f175dcd4.chunk.js",
+    "static/js/2.f175dcd4.chunk.js.map": "/martakunszt/portfolio-react/build/static/js/2.f175dcd4.chunk.js.map",
+    "index.html": "/martakunszt/portfolio-react/build/index.html",
+    "precache-manifest.54991d8a7c497edc64e1af75842f58e7.js": "/martakunszt/portfolio-react/build/precache-manifest.54991d8a7c497edc64e1af75842f58e7.js",
+    "service-worker.js": "/martakunszt/portfolio-react/build/service-worker.js",
+    "static/css/main.bb0778d6.chunk.css.map": "/martakunszt/portfolio-react/build/static/css/main.bb0778d6.chunk.css.map",
+    "static/js/2.f175dcd4.chunk.js.LICENSE": "/martakunszt/portfolio-react/build/static/js/2.f175dcd4.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.341945d9.js",
+    "static/js/runtime-main.27a1e4b5.js",
     "static/js/2.f175dcd4.chunk.js",
-    "static/css/main.fcefe766.chunk.css",
-    "static/js/main.02a5cf5e.chunk.js"
+    "static/css/main.bb0778d6.chunk.css",
+    "static/js/main.28a8db67.chunk.js"
   ]
 }
