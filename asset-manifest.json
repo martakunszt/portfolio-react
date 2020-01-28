@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/martakunszt/portfolio-react/build/static/css/main.bb0778d6.chunk.css",
-    "main.js": "/martakunszt/portfolio-react/build/static/js/main.28a8db67.chunk.js",
-    "main.js.map": "/martakunszt/portfolio-react/build/static/js/main.28a8db67.chunk.js.map",
-    "runtime-main.js": "/martakunszt/portfolio-react/build/static/js/runtime-main.27a1e4b5.js",
-    "runtime-main.js.map": "/martakunszt/portfolio-react/build/static/js/runtime-main.27a1e4b5.js.map",
-    "static/js/2.f175dcd4.chunk.js": "/martakunszt/portfolio-react/build/static/js/2.f175dcd4.chunk.js",
-    "static/js/2.f175dcd4.chunk.js.map": "/martakunszt/portfolio-react/build/static/js/2.f175dcd4.chunk.js.map",
-    "index.html": "/martakunszt/portfolio-react/build/index.html",
-    "precache-manifest.54991d8a7c497edc64e1af75842f58e7.js": "/martakunszt/portfolio-react/build/precache-manifest.54991d8a7c497edc64e1af75842f58e7.js",
-    "service-worker.js": "/martakunszt/portfolio-react/build/service-worker.js",
-    "static/css/main.bb0778d6.chunk.css.map": "/martakunszt/portfolio-react/build/static/css/main.bb0778d6.chunk.css.map",
-    "static/js/2.f175dcd4.chunk.js.LICENSE": "/martakunszt/portfolio-react/build/static/js/2.f175dcd4.chunk.js.LICENSE"
+    "main.css": "/portfolio-react/static/css/main.98cd16fc.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.9f28860e.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.9f28860e.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.53b78f2a.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.53b78f2a.js.map",
+    "static/js/2.a12702ce.chunk.js": "/portfolio-react/static/js/2.a12702ce.chunk.js",
+    "static/js/2.a12702ce.chunk.js.map": "/portfolio-react/static/js/2.a12702ce.chunk.js.map",
+    "index.html": "/portfolio-react/index.html",
+    "precache-manifest.e34307e6c8646cd9f61db52b681e6cc4.js": "/portfolio-react/precache-manifest.e34307e6c8646cd9f61db52b681e6cc4.js",
+    "service-worker.js": "/portfolio-react/service-worker.js",
+    "static/css/main.98cd16fc.chunk.css.map": "/portfolio-react/static/css/main.98cd16fc.chunk.css.map",
+    "static/js/2.a12702ce.chunk.js.LICENSE": "/portfolio-react/static/js/2.a12702ce.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.27a1e4b5.js",
-    "static/js/2.f175dcd4.chunk.js",
-    "static/css/main.bb0778d6.chunk.css",
-    "static/js/main.28a8db67.chunk.js"
+    "static/js/runtime-main.53b78f2a.js",
+    "static/js/2.a12702ce.chunk.js",
+    "static/css/main.98cd16fc.chunk.css",
+    "static/js/main.9f28860e.chunk.js"
   ]
 }
