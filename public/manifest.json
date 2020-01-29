@@ -1,9 +1,12 @@
 {
   "short_name": "React App",
   "name": "Create React App Sample",
-  "icons": [
-    
-   
+  "icons": [{
+    "src": "./android-chrome-384x384.png",
+    "sizes":"64x64 32x32 24x24 16x16 384x384",
+    "type":"image/x-icon"
+  }
+
   ],
   "start_url": ".",
   "display": "standalone",

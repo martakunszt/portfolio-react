@@ -45,6 +45,16 @@ function Hr() {
   );
 }
 
+function AboutMe() {
+  return (
+    <div className="aboutme">
+      <a name = "aboutme"></a>
+     <h1>Looking for a web developer?</h1>
+     <p class="one">I'm a junior front-end developer living in Cambridge, United Kingdom.</p>
+     <p class="two"><span>Currently looking for job.</span></p>
+    </div>
+  );
+}
 
 /* IMAGES */
 
@@ -101,7 +111,7 @@ class Slider extends React.Component {
   render() {
     return (
       <div className="slider">
-
+        <a name= "work"></a>
         <div className="slider-wrapper"
           style={{
             transform: `translateX(${this.state.translateValue}px)`,
@@ -155,20 +165,15 @@ const RightArrow = (props) => {
   );
 }
 
+/* FOOTER */
+
 function Footer() {
   return (
-    <div className="foot"></div>
-  );
-}
-
-function AboutMe() {
-  return (
-    <div className="aboutme">
-      <a name= "aboutme"></a>
-     <h1>Looking for a web developer?</h1>
-     <p class="one">I'm a junior front-end developer living in Cambridge, United Kingdom.</p>
-     <p class="two"><span>Currently looking for job.</span></p>
+    <div className="footer">
+      <p>© Marta Kunsztowicz 2020</p>
     </div>
   );
 }
+
+
 export default App;
