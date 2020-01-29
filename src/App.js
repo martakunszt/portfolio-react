@@ -14,6 +14,7 @@ function App() {
       </header>
       <AboutMe></AboutMe>
       <Slider></Slider>
+      <Contact></Contact>
       <Footer></Footer>
     </div>
   );
@@ -50,8 +51,9 @@ function AboutMe() {
     <div className="aboutme">
       <a name = "aboutme"></a>
      <h1>Looking for a web developer?</h1>
-     <p class="one">I'm a junior front-end developer living in Cambridge, United Kingdom.</p>
-     <p class="two"><span>Currently looking for job.</span></p>
+     <p className="one">I'm a junior front-end developer living in Cambridge, United Kingdom.<br></br>
+     I won <a href="https://www.cambridgenetwork.co.uk/news/students-look-forward-bright-future-coding-thanks-winning-scholarships" rel="noopener noreferrer" target="_blank">Digital's Academy Tech Scholarship</a> in October 2019.<br></br>
+     Currently looking for a job.</p>
     </div>
   );
 }
@@ -140,7 +142,7 @@ class Slider extends React.Component {
 const Slide = ({ image }) => {
   const styles = {
     backgroundImage: `url(${image})`,
-    backgroundSize:'80%',
+    backgroundSize:'60%',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: '50% 50%'
   }
@@ -164,6 +166,32 @@ const RightArrow = (props) => {
     </div>
   );
 }
+
+/* CONTACT */
+function Contact() {
+  return (
+    <div className="contact">
+      <a name="contact"></a>
+      <ul>
+        <li>
+          <div className = "email">
+          <h4>Contact me</h4>
+          <p>kunsztowicz.m@gmail.com</p>
+          </div>
+        </li>
+        <li>
+          <aside className="social">
+          <h4>Social Media</h4>
+            <a href="https://github.com/martakunszt" rel="noopener noreferrer" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/marta-kunsztowicz/" rel="noopener noreferrer" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://twitter.com/marplesnobble" rel="noopener noreferrer" target="_blank"><i class="fab fa-twitter"></i></a>
+          </aside>
+        </li>
+      </ul>
+    </div>
+  );
+}
+
 
 /* FOOTER */
 
