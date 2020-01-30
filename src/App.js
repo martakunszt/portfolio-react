@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import logo from'./assets/logo.png';
+import logo from './assets/logo.png';
 
 
 
@@ -12,10 +12,14 @@ function App() {
         <Breadcrumb></Breadcrumb>
         <Hr></Hr>
       </header>
+      <section>
       <AboutMe></AboutMe>
       <Slider></Slider>
       <Contact></Contact>
+      </section>
+      <footer>
       <Footer></Footer>
+      </footer>
     </div>
   );
 }
@@ -66,16 +70,18 @@ class Slider extends React.Component {
 
     this.state = {
       images: [
-        "https://i.imgur.com/HyKbNnI.png",
-        "https://i.imgur.com/WscO9sp.png",
-        "https://i.imgur.com/AMHbgM6.png",
-        "https://i.imgur.com/vWMEY63.png",
-        "https://i.imgur.com/akmChCT.png"
+        "https://i.imgur.com/EjUeZiz.png",
+        "https://i.imgur.com/BlYmAt9.png",
+        "https://i.imgur.com/CydAeoD.png",
+        "https://i.imgur.com/Rgad5fQ.jpg",
+        "https://i.imgur.com/r5jTual.png",
+        "https://i.imgur.com/q6IiDS8.png"
       ],
       currentIndex: 0,
       translateValue: 0
     }
   }
+
 
   goToPrevSlide = () => {
     if(this.state.currentIndex === 0)
@@ -142,7 +148,7 @@ class Slider extends React.Component {
 const Slide = ({ image }) => {
   const styles = {
     backgroundImage: `url(${image})`,
-    backgroundSize:'60%',
+    backgroundSize:'75%',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: '50% 50%'
   }
@@ -162,7 +168,7 @@ const LeftArrow = (props) => {
 const RightArrow = (props) => {
   return (
     <div className="nextArrow arrow" onClick={props.goToNextSlide}>
-      <i className="fas fa-arrow-right"></i>
+      <i className="fas fa-arrow-right fa2x"></i>
     </div>
   );
 }
@@ -198,7 +204,9 @@ function Contact() {
 function Footer() {
   return (
     <div className="footer">
+      <div className="foot">
       <p>© Marta Kunsztowicz 2020</p>
+      </div>
     </div>
   );
 }
